@@ -93,7 +93,7 @@ def summarize_abstract(text, target_words=90, skip_threshold=50):
 # -------------------------------
 # 5️⃣ Fetch and summarize arXiv papers
 # -------------------------------
-def fetch_and_summarize_arxiv(query, max_results=10, summary_words=90):
+def fetch_and_summarize_arxiv(query, max_results=7, summary_words=90):
     """
     Fetch top N papers from arXiv and summarize abstracts.
     Short abstracts (<50 words) are returned as-is.
